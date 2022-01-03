@@ -1,7 +1,7 @@
 package com.example.outsideintddexample
 
 class Car(
-    private val engine: Engine,
+    val engine: Engine,
     var fuel: Double
 ) {
 
