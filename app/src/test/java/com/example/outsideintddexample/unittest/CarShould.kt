@@ -7,13 +7,11 @@ import com.nhaarman.mockitokotlin2.times
 import com.nhaarman.mockitokotlin2.verify
 import junit.framework.TestCase.assertEquals
 import org.junit.Test
-import org.junit.runner.RunWith
-import org.mockito.junit.MockitoJUnitRunner
 
 class CarShould {
 
     private val engine: Engine = mock()
-    private val car = Car(5.0, engine)
+    private val car = Car(engine, 5.0)
 
     @Test
     fun loosingFuelWhenItTurnsOn() {

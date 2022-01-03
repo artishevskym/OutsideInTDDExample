@@ -1,8 +1,8 @@
 package com.example.outsideintddexample
 
 class Car(
-    var fuel: Double,
-    val engine: Engine
+    private val engine: Engine,
+    var fuel: Double
 ) {
 
     fun turnOn() {
