@@ -1,7 +1,8 @@
 package com.example.outsideintddexample.acceptancetest
 
 import com.example.outsideintddexample.Car
-import junit.framework.Assert.assertEquals
+import junit.framework.TestCase.assertEquals
+
 import org.junit.Test
 
 class CarFeature {

@@ -1,7 +1,7 @@
 package com.example.outsideintddexample.unittest
 
 import com.example.outsideintddexample.Car
-import junit.framework.Assert.assertEquals
+import junit.framework.TestCase.assertEquals
 import org.junit.Test
 
 class CarShould {
