@@ -1,7 +1,9 @@
 package com.example.outsideintddexample
 
-class Engine {
+class Engine(
+    var isTurnedOn: Boolean
+) {
     fun turnOn() {
-
+        isTurnedOn = true
     }
 }
