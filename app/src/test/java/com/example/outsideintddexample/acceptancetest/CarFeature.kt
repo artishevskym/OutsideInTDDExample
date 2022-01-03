@@ -8,7 +8,8 @@ import org.junit.Test
 
 class CarFeature {
 
-    private val car = Car(6.0)
+    private val engine = Engine()
+    private val car = Car(6.0, engine)
 
     @Test
     fun carIsLoosingFuelWhenItTurnsOn() {
