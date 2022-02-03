@@ -12,7 +12,7 @@ class Car(
 ) {
 
     fun turnOn() {
-        fuel -= 0.6
+        fuel -= 0.5
 
         CoroutineScope(Dispatchers.Main).launch {
             engine.turnOn().collect { temperature ->
